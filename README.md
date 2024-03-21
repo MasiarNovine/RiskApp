@@ -11,7 +11,7 @@ The app uses the following R packages: shiny (Chang et al, 2023), networkD3 (All
 
 # Literature
 
-1. Frank E. Harrell Jr. (2015) Regression Modeling Strategies 2 (Springer Cham).
-2. J.J. Allaire, Christopher Gandrud, Kenton Russell and CJ Yetman (2017). networkD3: D3 JavaScript Network Graphs from R. R package version 0.4. https://CRAN.R-project.org/package=networkD3.
-3. Frank E. Harrell Jr. (2023). rms: Regression Modeling Strategies. R package version 6.7-1. https://CRAN.R-project.org/package=rms.
-4. Winston Chang, Joe Cheng, JJ Allaire, Carson Sievert, Barret Schloerke, Yihui Xie, Jeff Allen, Jonathan McPherson, Alan Dipert and Barbara Borges (2023). shiny: Web Application Framework for R. R package version 1.8.0. https://CRAN.R-project.org/package=shiny.
+1. J.J. Allaire, Christopher Gandrud, Kenton Russell and CJ Yetman (2017). networkD3: D3 JavaScript Network Graphs from R. R package version 0.4. https://CRAN.R-project.org/package=networkD3.
+2. Winston Chang, Joe Cheng, JJ Allaire, Carson Sievert, Barret Schloerke, Yihui Xie, Jeff Allen, Jonathan McPherson, Alan Dipert and Barbara Borges (2023). shiny: Web Application Framework for R. R package version 1.8.0. https://CRAN.R-project.org/package=shiny.
+3. Frank E. Harrell Jr. (2015) Regression Modeling Strategies 2 (Springer Cham).
+4. Frank E. Harrell Jr. (2023). rms: Regression Modeling Strategies. R package version 6.7-1. https://CRAN.R-project.org/package=rms.
