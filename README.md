@@ -3,13 +3,13 @@
 This is a R shiny app to model a statistical risk model based on a logistic ordinal proportional odds (PO) model. Currently, there are three basic functionailities implemented: 
 
 * Loading a .rds file containing a data.frame or data.table.
-* Based on the numeric data, a model graph is automatically constructed using correlation thresholding based on three similarity indices: Spearman rho, Pearsons r and Hoeffding's D (independence test). It is possible to to use the square, absolute or no transformation of the similarity values.
+* Based on the numeric data, a model graph is automatically constructed using correlation thresholding based on two similarity indices: Spearman rho and Pearsons r. The correlations might either be squared, taken as absolute values or kept as is.
 
-Features, which should be implemented yet:
+Features, which are not yet implemented:
 
 * Evaluating a model formulation.
-* Fit a logistic ordinal proportional odds model based on the implementation described in Harrell (2015).
-* Visualization of the results of the model.
+* Fit a proportional odds model based on the implementation described in Harrell (2015).
+* Visualization of the model results.
 
 The app uses the following R packages: shiny (Chang et al, 2023), networkD3 (Allaire et al, 2017) for building the model graph, rms (Harrell, 2023) for the similarity indices and the implementation of the PO model.
 
