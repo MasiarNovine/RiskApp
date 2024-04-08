@@ -1,5 +1,6 @@
-# UI object
-# --------------------------------------------
+source("server.R")
+
+# UI
 ui <- dashboardPage(
   dashboardHeader(
     title = "Dashboard"
@@ -47,12 +48,12 @@ ui <- dashboardPage(
                     selectInput(
                       "sim",
                       "Similarity index",
-                      c("Spearman", "Pearson", "Hoeffding D")
+                      c("spearman", "pearson")
                     ),
                     selectInput(
                       "trans",
                       "Transformation",
-                      c("square", "absolute", "none")
+                      c("square", "abs", "none")
                     ),
                     sliderInput(
                       "thres",
@@ -65,8 +66,9 @@ ui <- dashboardPage(
                 )
               )
             ),
-            #DT::dataTableOutput("vartbl"),
-            rhandsontable::rHandsontableOutput("vars"),
+            DT::dataTableOutput("num"),
+            DT::dataTableOutput("char"),
+            #rhandsontable::rHandsontableOutput("vars"),
             textAreaInput("mf", "Model formula")
           )
         )
